@@ -23,7 +23,7 @@ Class Template{
     </html>';
 
     public function template(){
-        
+        echo $this->template;
     }
 }
 
