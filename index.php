@@ -4,7 +4,10 @@ class Home{
 
     public function init(){
         $tema = new Template();
+        $notificacao = new Notif();
+
         echo $tema->template();
+        echo $notificacao->notifique('<a href="#">Seu HTML foi criado!</a>');
     }
 
 }
@@ -24,6 +27,13 @@ Class Template{
 
     public function template(){
         echo $this->template;
+    }
+}
+
+class Notif{
+
+    public function notifique($mensagem){
+        echo $mensagem;
     }
 }
 
