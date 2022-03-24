@@ -1,0 +1,18 @@
+{
+    "name": "code/gree",
+    "description": "Programa de testes",
+    "type": "project",
+    "license": "GPU",
+    "autoload": {
+        "psr-4": {
+            "Code\\Gree\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "adrianongit",
+            "email": "adriansantosrollim@gmail.com"
+        }
+    ],
+    "require": {}
+}
